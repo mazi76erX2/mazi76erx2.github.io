@@ -1,0 +1,167 @@
+[
+	{
+		"project": "Peanut Butter Payroll",
+		"url": "https://peanut-butter-payroll-frontend.onrender.com",
+		"repo": "Public",
+		"descriptionTitle": "A modern, responsive payroll management UI built with Next.js 15 and Tailwind CSS.",
+		"description": "project provides a sleek, intuitive interface for managing employee records, featuring dynamic forms and interactive tables.",
+		"imageOptions": [],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "1200",
+				"w": "556",
+				"url": "/img/peanut-payroll/04.png"
+			},
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "1200",
+				"w": "556",
+				"url": "/img/peanut-payroll/04.png"
+			}
+		],
+		"stack": [
+			{
+				"key": "python",
+				"name": "Python",
+				"type": "devicon"
+			},
+			{
+				"key": "fastapi",
+				"name": "FastAPI",
+				"type": "devicon"
+			},
+			{
+				"key": "postgresql",
+				"name": "postgreSQL",
+				"type": "devicon"
+			},
+			{
+				"key": "javascript",
+				"name": "JavaScript",
+				"type": "devicon"
+			},
+			{
+				"key": "react",
+				"name": "React",
+				"type": "devicon"
+			},
+			{
+				"key": "nextjs",
+				"name": "NextJS",
+				"type": "devicon"
+			},
+			{
+				"key": "tailwindcss",
+				"name": "Tailwind CSS",
+				"type": "devicon"
+			},
+			{
+				"key": "html5",
+				"name": "HTML5",
+				"type": "devicon"
+			},
+			{
+				"key": "css3",
+				"name": "CSS3",
+				"type": "devicon"
+			},
+			{
+				"key": "jenkins",
+				"name": "Jenkins",
+				"type": "devicon"
+			},
+			{
+				"key": "git",
+				"name": "Git(Hub)",
+				"type": "devicon"
+			}
+		]
+	},
+	{
+		"project": "lucaskimhy.net",
+		"url": "https://github.com/mazi76erX2/music-migrate",
+		"repo": "Public",
+		"descriptionTitle": "Transfer Your Music Library Seamlessly",
+		"description": "built on Next.js and React. A fast and agile MERN stack app the moves your playlists from Spotify to YouTube Music with just a few clicks.",
+		"imageOptions": [
+			{
+				"key": "size",
+				"value": "large"
+			}
+		],
+		"images": [
+			{
+				"key": "portfolio",
+				"hover": "left",
+				"h": "797",
+				"w": "556",
+				"url": "/img/peanut-payroll/03.png"
+			}
+		],
+		"stack": [
+			{
+				"key": "python",
+				"name": "Python",
+				"type": "devicon"
+			},
+			{
+				"key": "django",
+				"name": "Django",
+				"type": "devicon"
+			},
+			{
+				"key": "postgresql",
+				"name": "postgreSQL",
+				"type": "devicon"
+			},
+			{
+				"key": "javascript",
+				"name": "JavaScript",
+				"type": "devicon"
+			},
+			{
+				"key": "react",
+				"name": "React",
+				"type": "devicon"
+			},
+			{
+				"key": "nextjs",
+				"name": "NextJS",
+				"type": "devicon"
+			},
+			{
+				"key": "tailwindcss",
+				"name": "Tailwind CSS",
+				"type": "devicon"
+			},
+			{
+				"key": "html5",
+				"name": "HTML5",
+				"type": "devicon"
+			},
+			{
+				"key": "css3",
+				"name": "CSS3",
+				"type": "devicon"
+			},
+			{
+				"key": "jenkins",
+				"name": "Jenkins",
+				"type": "devicon"
+			},
+			{
+				"key": "git",
+				"name": "Git(Hub)",
+				"type": "devicon"
+			},
+			{
+				"key": "vercel",
+				"name": "Vercel",
+				"type": "devicon"
+			}
+		]
+	}
+]

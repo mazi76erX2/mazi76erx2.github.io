@@ -1,0 +1,32 @@
+{
+	"intro": {
+		"start": "const Xolani = ( name, passion ) =>",
+		"end": "Hello, my name is",
+		"speed": 60,
+		"deletionSpeed": 80,
+		"wrapper": "h2",
+		"startDelay": 1000,
+		"deleteDelay": 3000,
+		"restartDelay": 12000
+	},
+
+	"header": {
+		"name": "Xolani Mazibuko",
+		"usp": "I design and build meaningful experiences."
+	},
+
+	"paragraph": "I am a digital polymath—a relentlessly curious software engineer who thrives on lifelong learning and innovation. My journey spans diverse technologies from Python, Django, and AWS to modern front-end frameworks like TypeScript and React.",
+
+	"buttons": {
+		"primary": {
+			"title": "Contact Me",
+			"url": "https://about.me/mazi76er",
+			"leaveSite": false
+		},
+		"secondary": {
+			"title": "LinkedIn",
+			"url": "https://www.linkedin/in/xolani-mazibuko",
+			"leaveSite": "true"
+		}
+	}
+}

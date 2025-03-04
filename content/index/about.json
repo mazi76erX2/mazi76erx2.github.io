@@ -1,0 +1,45 @@
+{
+	"about": {
+		"subTitle": "I'm currently a software engineer at DotDigital, where I channel my passion for problem-solving and innovation into every project. I thrive on leveraging cloud infrastructure, Django skills, and React with Typescript skills, effective solutions that boost performance, simplify maintenance, and enhance user experience."
+	},
+	"section1": {
+		"title": "Soft Skills That Pay the Bills",
+		"copy": "Beyond technical prowess, I bring strong leadership, time management, and multitasking skills—refined through my experiences as a business owner. Outside work, I stay active through gymming and basketball, which energize my creativity and drive. I’m confident my well-rounded abilities will add real value to every project."
+	},
+	"section2": {
+		"title": "Research and Planning",
+		"copy": "I find immense satisfaction in the planning and architecture phases of projects. Whether designing comprehensive design systems or crafting innovative brand strategies, I relish exploring every facet of user experience to build solid, future-proof solutions."
+	},
+	"methods": [
+		{
+			"key": "planet-moon",
+			"name": "User Research",
+			"type": "fad"
+		},
+		{
+			"key": "qrcode",
+			"name": "Digital Strategy",
+			"type": "fad"
+		},
+		{
+			"key": "window",
+			"name": "Design Systems",
+			"type": "fad"
+		},
+		{
+			"key": "cubes",
+			"name": "Product Strategy",
+			"type": "far"
+		},
+		{
+			"key": "layer-plus",
+			"name": "Brand Strategy",
+			"type": "fad"
+		},
+		{
+			"key": "solar-system",
+			"name": "Operations",
+			"type": "fad"
+		}
+	]
+}

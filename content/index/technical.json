@@ -1,0 +1,132 @@
+{
+    "technical": {
+        "preTitle": "Hardskills",
+        "subTitle": "As a creative technologist, I harness a diverse toolkit of languages and frameworks to craft intuitive digital experiences. My expertise spans backend development with Python, Django, and Flask, complemented by modern front-end work using React and Vue.js."
+    },
+    "section1": {
+        "title": "Polymath foundations",
+        "copy": "As a digital polymath with a background that spans both design and software engineering, I merge creative vision with technical expertise. My journey—from crafting engaging user interfaces to architecting scalable cloud solutions—has taught me to approach every challenge holistically. I continuously invest in my learning through hands-on projects and industry certifications, ensuring that my work remains both innovative and impactful."
+    },
+    "section2": {
+        "title": "Software I love to work with",
+        "copy": "I thrive on developing user-centric digital products that not only perform flawlessly but also offer a delightful user experience. Drawing on my experience with diverse projects at MaxRetail and beyond, I’ve learned to appreciate the art of great software design. Whether it’s a robust API or a dynamic front-end dashboard, I enjoy dissecting the architecture of successful applications to drive intuitive, high-performance solutions."
+    },
+    "section3": {
+        "title": "Technologies I love to build with",
+        "copy": "I’m passionate about leveraging a versatile tech stack to solve complex problems. My experience with Python, Django, Flask, React, and AWS empowers me to build resilient, scalable systems from end to end. I relish the challenge of integrating backend logic with modern front-end interfaces, and I’m constantly exploring new tools and frameworks to push the boundaries of what’s possible in digital product development."
+    },
+    "software": [
+        {
+            "key": "figma",
+            "name": "Figma",
+            "type": "devicon"
+        },
+        {
+            "key": "vscode",
+            "name": "VSCode",
+            "type": "devicon"
+        },
+        {
+            "key": "mailbox",
+            "name": "Postman",
+            "type": "fas"
+        },
+        {
+            "key": "notion",
+            "name": "Notion",
+            "type": "fas"
+        },
+        {
+            "key": "chrome",
+            "name": "Chrome DevTools",
+            "type": "fas"
+        },
+        {
+            "key": "dbeaver",
+            "name": "DBeaver",
+            "type": "devicon"
+        },
+        {
+            "key": "ubuntu",
+            "name": "Ubuntu",
+            "type": "devicon"
+        }
+    ],
+    "tech": [
+        {
+            "key": "python",
+            "name": "Python",
+            "type": "devicon"
+        },
+        {
+            "key": "django",
+            "name": "Django",
+            "type": "devicon"
+        },
+        {
+            "key": "fastapi",
+            "name": "FastAPI",
+            "type": "devicon"
+        },
+        {
+            "key": "flask",
+            "name": "Flask",
+            "type": "devicon"
+        },
+        {
+            "key": "javascript",
+            "name": "JavaScript",
+            "type": "devicon"
+        },
+        {
+            "key": "nodejs",
+            "name": "NodeJS",
+            "type": "devicon"
+        },
+        {
+            "key": "react",
+            "name": "React",
+            "type": "devicon"
+        },
+        {
+            "key": "nextjs",
+            "name": "NextJS",
+            "type": "devicon"
+        },
+        {
+            "key": "amazonwebservices",
+            "name": "AWS",
+            "type": "devicon"
+        },
+        {
+            "key": "html5",
+            "name": "HTML5",
+            "type": "devicon"
+        },
+        {
+            "key": "css3",
+            "name": "CSS3",
+            "type": "devicon"
+        },
+        {
+            "key": "tailwindcss",
+            "name": "Tailwind CSS",
+            "type": "devicon"
+        },
+        {
+            "key": "git",
+            "name": "Git",
+            "type": "devicon"
+        },
+        {
+            "key": "postgresql",
+            "name": "PostgreSQL",
+            "type": "devicon"
+        },
+        {
+            "key": "storybook",
+            "name": "Storybook",
+            "type": "devicon"
+        }
+    ]
+}

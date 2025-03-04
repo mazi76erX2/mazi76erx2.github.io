@@ -1,0 +1,33 @@
+{
+	"acknowledgments": [
+		{ 
+			"person": "Teboho Morolong - UI/UX Designer",
+			"link": "",
+			"note": "Thank you for all the advice and feedback."
+		},
+		{ 
+			"person": "Vercel - Platform",
+			"link": "https://vercel.com/docs",
+			"note": "Host your own Next.js project for free!"
+		}
+	],
+
+	"links": [
+		{ 
+			"person": "YWFT Creative Marketplace",
+			"link": "https://www.youworkforthem.com/?aff=1115",
+			"note": "Best in class creative assets."
+		}
+	],
+
+	"social": [
+		{
+			"url": "https://www.linkedin.com/in/xolani-mazibuko/",
+			"icon": "linkedin"
+		},
+		{
+			"url": "https://github.com/mazi76erX2",
+			"icon": "github"
+		}
+	]
+}
