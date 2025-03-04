@@ -36,7 +36,7 @@ export default function Career() {
                   Dotdigital (Software Engineer - Full Stack Engineer, Remote)
                 </h3>
                 <h4>Contract Full-time</h4>
-                <h4>Apr 2019 - Present · 6 months</h4>
+                <h4>July 2024 - Dec 2024 · 6 months</h4>
                 <h5>Cape Town, Western Cape, South Africa</h5>
               </span>
               <p>
