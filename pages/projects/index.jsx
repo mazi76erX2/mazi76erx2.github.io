@@ -19,7 +19,7 @@ export default function Projects({ user, repos }) {
 }
 
 // This gets called on every request
-export async function getServerSideProps({ res }) {
+export async function getStaticProps({ res }) {
 
 	res.setHeader(
 		'Cache-Control',
