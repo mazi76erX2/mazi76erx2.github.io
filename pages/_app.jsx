@@ -18,9 +18,6 @@ import "@fontsource/inter/400.css"
 import "@fontsource/inter/700.css"
 import "@fontsource/inter/800.css"
 
-// Devicon import (https://github.com/devicons/devicon)
-import '../node_modules/devicon/devicon.min.css'
-
 // Global css
 import '../styles/css/variables.css'
 import '../styles/css/global.css'

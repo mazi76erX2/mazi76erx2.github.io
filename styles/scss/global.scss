@@ -1,5 +1,5 @@
-@import '_variables';
-@import '_mixins';
+@use 'variables' as *;
+@use 'mixins' as *;
 
 ::selection {
 	color: 		var(--background);

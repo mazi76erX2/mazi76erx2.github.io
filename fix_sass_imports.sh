@@ -1,3 +1,12 @@
+#!/bin/bash
+
+# Script to fix all SCSS @use imports with correct paths
+echo "Fixing SCSS @use imports..."
+
+# For macOS
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    # Fix badges.module.scss (from styles/blocks/)
+    cat > styles/blocks/badges.module.scss << 'EOF'
 $badgeText: 	--primary;
 $border: 		--primary-dark;
 $background: 	--background-dim2;
@@ -160,3 +169,19 @@ $background: 	--background-dim2;
 		}
 	}
 }
+EOF
+
+    # Fix all other SCSS files with correct relative paths
+    find styles/sections -name "*.scss" -type f -exec sed -i '' "s/@import '..\/..\/scss\/mixins';/@use '..\/..\/scss\/mixins' as *;/g" {} +
+    find styles/sections -name "*.scss" -type f -exec sed -i '' "s/@import '..\/..\/scss\/_mixins';/@use '..\/..\/scss\/mixins' as *;/g" {} +
+    find styles/structure -name "*.scss" -type f -exec sed -i '' "s/@import '..\/scss\/_mixins';/@use '..\/scss\/mixins' as *;/g" {} +
+    find styles/scss -name "global.scss" -exec sed -i '' "s/@import '_variables';/@use 'variables' as *;/g" {} +
+    find styles/scss -name "global.scss" -exec sed -i '' "s/@import '_mixins';/@use 'mixins' as *;/g" {} +
+    find styles/scss -name "variables.scss" -exec sed -i '' "s/@import \"..\/scss\/mixins\";/@use 'mixins' as *;/g" {} +
+
+else
+    # For Linux
+    echo "Linux version - update paths manually or adjust sed commands"
+fi
+
+echo "✅ Done! All SCSS files updated with correct @use paths."
