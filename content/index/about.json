@@ -4,7 +4,7 @@
 	},
 	"section1": {
 		"title": "Soft Skills That Pay the Bills",
-		"copy": "Beyond technical prowess, I bring strong leadership, time management, and multitasking skills—refined through my experiences as a business owner. Outside work, I stay active through gymming and basketball, which energize my creativity and drive. I’m confident my well-rounded abilities will add real value to every project."
+		"copy": "Beyond technical prowess, I bring strong leadership, time management, and multitasking skills—refined through my experiences as a business owner. Outside work, I stay active through gymming and basketball, which energize my creativity and drive. I'm confident my well-rounded abilities will add real value to every project."
 	},
 	"section2": {
 		"title": "Research and Planning",
@@ -29,16 +29,6 @@
 		{
 			"key": "cubes",
 			"name": "Product Strategy",
-			"type": "far"
-		},
-		{
-			"key": "layer-plus",
-			"name": "Brand Strategy",
-			"type": "fad"
-		},
-		{
-			"key": "solar-system",
-			"name": "Operations",
 			"type": "fad"
 		}
 	]
