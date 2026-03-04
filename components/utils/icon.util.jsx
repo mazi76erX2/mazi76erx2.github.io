@@ -32,14 +32,17 @@ library.add(fat, fal, fas, fad, far, fab)
  * @returns {jsx} 	<Icon />
  */
 export default function Icon({ icon }) {
+    // 1. Add this safety check at the very top
+    if (!icon || !Array.isArray(icon)) {
+        return null; 
+    }
 
-	const [ iconType, iconKey ] = icon
+    const [ iconType, iconKey ] = icon
+    const [ stateIconKey, setIconKey ] = useState('circle-notch')
+    
+    useEffect( () => setIconKey( iconKey ), [ iconKey ] )
 
-	const [ stateIconKey, setIconKey ] = useState('circle-notch')
-
-	useEffect( () => setIconKey( iconKey ), [ iconKey ] )
-
-	return (
-		<FontAwesomeIcon icon={[ iconType, stateIconKey ]} />
-	)
+    return (
+        <FontAwesomeIcon icon={[ iconType, stateIconKey ]} />
+    )
 }

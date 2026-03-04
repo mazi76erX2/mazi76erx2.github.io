@@ -9,6 +9,10 @@ import spaces from '../../styles/utils/spacing.module.scss';
  */
 export default function Spacing( spacing ) {
 	let classes = [];
+    
+    // Add this check
+    if (!spacing) return ''; 
+
 	if ( Array.isArray(spacing) ) {
 		spacing.forEach( space => {
 			classes.push( spaces[space] );
