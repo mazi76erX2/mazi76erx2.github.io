@@ -9,18 +9,15 @@
 		"deleteDelay": 3000,
 		"restartDelay": 12000
 	},
-
 	"header": {
 		"name": "Xolani Mazibuko",
 		"usp": "I design and build meaningful experiences."
 	},
-
-	"paragraph": "I am a digital polymath—a relentlessly curious software engineer who thrives on lifelong learning and innovation. My journey spans diverse technologies from Python, Django, and AWS to modern front-end frameworks like TypeScript and React.",
-
+	"paragraph": "I am a digital polymath relentlessly curious software engineer who thrives on lifelong learning and innovation. My journey spans diverse technologies from Python, Django, and AWS to modern front-end frameworks like TypeScript and React.",
 	"buttons": {
 		"primary": {
 			"title": "Contact Me",
-			"url": "https://about.me/mazi76er",
+			"url": "https://www.github.com/mazi76erX2",
 			"leaveSite": false
 		},
 		"secondary": {

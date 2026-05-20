@@ -1,10 +1,10 @@
 [
 	{
-		"project": "Peanut Butter Payroll",
-		"url": "https://peanut-butter-payroll-frontend.onrender.com",
+		"project": "vault",
+		"url": "https://github.com/mazi76erX2/vault",
 		"repo": "Public",
-		"descriptionTitle": "A modern, responsive payroll management UI built with Next.js 15 and Tailwind CSS.",
-		"description": "project provides a sleek, intuitive interface for managing employee records, featuring dynamic forms and interactive tables.",
+		"descriptionTitle": "AI-Powered Knowledge Management with RAG",
+		"description": "A full-stack document Q&A system built with FastAPI and React, combining hybrid vector and keyword search, reranking, query enhancement, and LLM-powered answers for fast retrieval.",
 		"imageOptions": [],
 		"images": [
 			{
@@ -35,7 +35,7 @@
 			},
 			{
 				"key": "postgresql",
-				"name": "postgreSQL",
+				"name": "PostgreSQL",
 				"type": "devicon"
 			},
 			{
@@ -52,55 +52,58 @@
 				"key": "nextjs",
 				"name": "NextJS",
 				"type": "devicon"
-			},
+			}
+		]
+	},
+	{
+		"project": "Secure-File-Statement-Delivery",
+		"url": "https://github.com/mazi76erX2/Secure-File-Statement-Delivery",
+		"repo": "Public",
+		"descriptionTitle": "Secure PDF Statement Delivery API",
+		"description": "A FastAPI service for authenticated PDF delivery with encrypted storage, PostgreSQL, Redis caching, pluggable backends, and production observability built in.",
+		"imageOptions": [],
+		"images": [],
+		"stack": [
 			{
-				"key": "tailwindcss",
-				"name": "Tailwind CSS",
+				"key": "python",
+				"name": "Python",
 				"type": "devicon"
 			},
 			{
-				"key": "html5",
-				"name": "HTML5",
+				"key": "fastapi",
+				"name": "FastAPI",
 				"type": "devicon"
 			},
 			{
-				"key": "css3",
-				"name": "CSS3",
+				"key": "postgresql",
+				"name": "PostgreSQL",
 				"type": "devicon"
 			},
 			{
-				"key": "jenkins",
-				"name": "Jenkins",
+				"key": "redis",
+				"name": "Redis",
 				"type": "devicon"
 			},
 			{
-				"key": "git",
-				"name": "Git(Hub)",
+				"key": "docker",
+				"name": "Docker",
+				"type": "devicon"
+			},
+			{
+				"key": "amazonwebservices",
+				"name": "AWS",
 				"type": "devicon"
 			}
 		]
 	},
 	{
-		"project": "lucaskimhy.net",
-		"url": "https://github.com/mazi76erX2/music-migrate",
+		"project": "eld-logs-spotter",
+		"url": "https://github.com/mazi76erX2/eld-logs-spotter",
 		"repo": "Public",
-		"descriptionTitle": "Transfer Your Music Library Seamlessly",
-		"description": "built on Next.js and React. A fast and agile MERN stack app the moves your playlists from Spotify to YouTube Music with just a few clicks.",
-		"imageOptions": [
-			{
-				"key": "size",
-				"value": "large"
-			}
-		],
-		"images": [
-			{
-				"key": "portfolio",
-				"hover": "left",
-				"h": "797",
-				"w": "556",
-				"url": "/img/peanut-payroll/03.png"
-			}
-		],
+		"descriptionTitle": "FMCSA-Compliant ELD Trip Planner",
+		"description": "A trip-planning application for commercial drivers that calculates routes and generates compliant Electronic Logging Device log sheets with backend automation and real-time updates.",
+		"imageOptions": [],
+		"images": [],
 		"stack": [
 			{
 				"key": "python",
@@ -114,7 +117,7 @@
 			},
 			{
 				"key": "postgresql",
-				"name": "postgreSQL",
+				"name": "PostgreSQL",
 				"type": "devicon"
 			},
 			{
@@ -133,33 +136,39 @@
 				"type": "devicon"
 			},
 			{
-				"key": "tailwindcss",
-				"name": "Tailwind CSS",
+				"key": "celery",
+				"name": "Celery",
 				"type": "devicon"
-			},
+			}
+		]
+	},
+	{
+		"project": "mention-python",
+		"url": "https://github.com/mazi76erX2/mention-python",
+		"repo": "Public",
+		"descriptionTitle": "Python Client Library for the Mention API",
+		"description": "A typed Python SDK for the Mention media monitoring API with sync and async support, documentation, and CI/CD automation for reliable releases.",
+		"imageOptions": [],
+		"images": [],
+		"stack": [
 			{
-				"key": "html5",
-				"name": "HTML5",
-				"type": "devicon"
-			},
-			{
-				"key": "css3",
-				"name": "CSS3",
-				"type": "devicon"
-			},
-			{
-				"key": "jenkins",
-				"name": "Jenkins",
+				"key": "python",
+				"name": "Python",
 				"type": "devicon"
 			},
 			{
 				"key": "git",
-				"name": "Git(Hub)",
+				"name": "Git",
 				"type": "devicon"
 			},
 			{
-				"key": "vercel",
-				"name": "Vercel",
+				"key": "github",
+				"name": "GitHub",
+				"type": "devicon"
+			},
+			{
+				"key": "javascript",
+				"name": "TypeScript",
 				"type": "devicon"
 			}
 		]

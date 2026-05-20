@@ -1,14 +1,14 @@
 {
 	"about": {
-		"subTitle": "I'm currently a software engineer at DotDigital, where I channel my passion for problem-solving and innovation into every project. I thrive on leveraging cloud infrastructure, Django skills, and React with Typescript skills, effective solutions that boost performance, simplify maintenance, and enhance user experience."
+		"subTitle": "I'm a senior software engineer with over 7 years of experience building scalable backend systems and full-stack applications, currently pursuing a BSc in Mathematics and Computer Science at UNISA. My core focus is Python backend development — FastAPI, Django, PostgreSQL, Redis — with a strong track record across AI platforms, data pipelines, and cloud infrastructure on AWS and Azure."
 	},
 	"section1": {
 		"title": "Soft Skills That Pay the Bills",
-		"copy": "Beyond technical prowess, I bring strong leadership, time management, and multitasking skills—refined through my experiences as a business owner. Outside work, I stay active through gymming and basketball, which energize my creativity and drive. I'm confident my well-rounded abilities will add real value to every project."
+		"copy": "Beyond technical depth, I bring strong leadership and architectural thinking refined through leading teams, mentoring engineers, and owning long-term technical roadmaps. I approach problems with evidence-based rigour — diagnosing root causes before committing to solutions. Outside work I stay sharp through gym and basketball, which keep the discipline and competitive drive alive."
 	},
 	"section2": {
 		"title": "Research and Planning",
-		"copy": "I find immense satisfaction in the planning and architecture phases of projects. Whether designing comprehensive design systems or crafting innovative brand strategies, I relish exploring every facet of user experience to build solid, future-proof solutions."
+		"copy": "I find the most leverage in the architecture and design phases of a project. Whether decomposing a microservices system, designing database schemas for scale, or planning zero-downtime migration strategies, I invest heavily upfront to avoid costly rework downstream."
 	},
 	"methods": [
 		{

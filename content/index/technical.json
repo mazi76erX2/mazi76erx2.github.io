@@ -1,11 +1,11 @@
 {
     "technical": {
         "preTitle": "Hardskills",
-        "subTitle": "As a creative technologist, I harness a diverse toolkit of languages and frameworks to craft intuitive digital experiences. My expertise spans backend development with Python, Django, and Flask, complemented by modern front-end work using React and Vue.js."
+        "subTitle": "My primary stack is Python — FastAPI and Django on the backend, paired with PostgreSQL, Redis, and RabbitMQ for data and messaging layers. I've built and shipped production systems on both Azure and AWS, including Dockerised deployments with CI/CD pipelines, observability stacks, and async task processing with Celery. I'm equally comfortable on the frontend with React and Next.js when the work calls for it."
     },
     "section1": {
-        "title": "Polymath foundations",
-        "copy": "As a digital polymath with a background that spans both design and software engineering, I merge creative vision with technical expertise. My journey—from crafting engaging user interfaces to architecting scalable cloud solutions—has taught me to approach every challenge holistically. I continuously invest in my learning through hands-on projects and industry certifications, ensuring that my work remains both innovative and impactful."
+        "title": "Polymath Foundations",
+        "copy": "My background spans data analytics, backend engineering, cloud infrastructure, and AI integration — from building RAG pipelines with pgvector and Qdrant to prototyping AWS Bedrock embeddings for unstructured data classification. That breadth gives me a systems-level perspective that purely specialised engineers often miss."
     },
     "section2": {
         "title": "Software I love to work with",
@@ -13,7 +13,7 @@
     },
     "section3": {
         "title": "Technologies I love to build with",
-        "copy": "I'm passionate about leveraging a versatile tech stack to solve complex problems. My experience with Python, Django, Flask, React, and AWS empowers me to build resilient, scalable systems from end to end. I relish the challenge of integrating backend logic with modern front-end interfaces, and I'm constantly exploring new tools and frameworks to push the boundaries of what's possible in digital product development."
+        "copy": "Python, FastAPI, Django, PostgreSQL, Redis, RabbitMQ, React, Next.js, AWS, Azure, Docker, GitHub Actions, Celery, SQLAlchemy, TypeScript"
     },
     "software": [
         {
@@ -126,6 +126,26 @@
         {
             "key": "storybook",
             "name": "Storybook",
+            "type": "devicon"
+        },
+        {
+            "key": "redis",
+            "name": "Redis",
+            "type": "devicon"
+        },
+        {
+            "key": "docker",
+            "name": "Docker",
+            "type": "devicon"
+        },
+        {
+            "key": "microsoftazure",
+            "name": "Azure",
+            "type": "devicon"
+        },
+        {
+            "key": "typescript",
+            "name": "TypeScript",
             "type": "devicon"
         }
     ]
