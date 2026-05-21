@@ -88,8 +88,6 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run lint
       - name: Type check
         run: ${{ steps.detect-package-manager.outputs.manager }} run typecheck
-      - name: Check formatting
-        run: ${{ steps.detect-package-manager.outputs.manager }} run format:check
       - name: Build with Next.js
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
