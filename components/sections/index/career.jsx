@@ -33,26 +33,14 @@ export default function Career() {
             <div className={career.companyContent}>
               <span className={career.companyHeader}>
                 <h3>
-                  Dotdigital (Software Engineer - Full Stack Engineer, Remote)
+                  Freelance Software Engineer - Full Stack (Remote)
                 </h3>
-                <h4>Contract Full-time</h4>
-                <h4>July 2024 - Dec 2024 · 6 months</h4>
-                <h5>Cape Town, Western Cape, South Africa</h5>
+                <h4>Contract</h4>
+                <h4>Jan 2025 - Apr 2026 · 16 months</h4>
+                <h5>Johannesburg, Gauteng, South Africa</h5>
               </span>
               <p>
-                At Dotdigital, I work as a Full Stack Engineer, collaborating
-                within agile teams to develop and scale a high-performance,
-                multitenant platform handling vast amounts of data. My role
-                involves designing and implementing backend services using
-                Django, Node.js, and Python while integrating front-end
-                interfaces with React. I ensure system security and reliability
-                by enforcing best practices throughout the development
-                lifecycle. Additionally, I optimize large-scale data
-                interactions, streamline queries, and enhance database schemas.
-                I also contribute to automated deployments and CI/CD workflows,
-                ensuring rapid, reliable releases while working closely with
-                product managers, designers, and QA engineers to refine and
-                enhance digital solutions.
+                At Pepper Potts and HICO Group, I worked across two senior fullstack roles spanning freelance and AI platform engineering. At Pepper Potts, I led backend development for a large-scale Django-based procurement and user-management platform, designing and optimising Django/DRF APIs, database schemas, raw SQL queries, and multi-DB workflows to improve dashboard and reporting performance. I drove code quality through unit and integration testing, static analysis, code reviews, and Dockerised CI/CD deployments, while mentoring mid and junior engineers and contributing to long-term architecture planning. At HICO Group, I built and scaled Vault, a multi-tenant AI knowledge platform, delivering high-performance FastAPI services and background workflows backed by PostgreSQL, Supabase, and Azure AI. I developed document processing pipelines and semantic search using Qdrant, integrated enterprise authentication with Azure AD and LDAP, and optimised ML inference workflows using pandas, scikit-learn, and sentence-transformers. I collaborated with frontend teams to expose stable APIs for React components and drove zero-downtime releases through Docker-based CI/CD deployments.
               </p>
               <Badges
                 list={dotdigital}
@@ -61,6 +49,42 @@ export default function Career() {
               />
             </div>
             <div className={career.companyAlt}></div>
+          </article>
+
+          <article className={career.companyPositions}>
+            <div className={career.position}>
+              <div className={career.positionContent}>
+                <span class={career.positionHeader}>
+                  <h3>
+                    Dotdigital (Software Engineer - Full Stack Engineer, Remote)
+                  </h3>
+                  <h4>Contract Full-time</h4>
+                  <h4>July 2024 - Dec 2024 · 6 months</h4>
+                  <h5>Cape Town, Western Cape, South Africa</h5>
+                </span>
+                <p>
+                  At Dotdigital, I work as a Full Stack Engineer, collaborating
+                  within agile teams to develop and scale a high-performance,
+                  multitenant platform handling vast amounts of data. My role
+                  involves designing and implementing backend services using
+                  Django, Node.js, and Python while integrating front-end
+                  interfaces with React. I ensure system security and reliability
+                  by enforcing best practices throughout the development
+                  lifecycle. Additionally, I optimize large-scale data
+                  interactions, streamline queries, and enhance database schemas.
+                  I also contribute to automated deployments and CI/CD workflows,
+                  ensuring rapid, reliable releases while working closely with
+                  product managers, designers, and QA engineers to refine and
+                  enhance digital solutions.
+                </p>
+                <Badges
+                  list={iolap}
+                  block="stack"
+                  fullContainer="fullContainer"
+                />
+              </div>
+              <div className={career.positionAlt}></div>
+            </div>
           </article>
 
           <article className={career.companyPositions}>

@@ -2,10 +2,8 @@
 const nextConfig = {
 	reactStrictMode: true,
 	output: "export",
-	env: {
-		dir: '/',
-	},
 	images: {
+		unoptimized: true,
 		remotePatterns: [
 			{
 				protocol: 'https',
@@ -33,6 +31,9 @@ const nextConfig = {
 				pathname: '/**'
 			},
 		],
+	},
+	env: {
+		dir: '/',
 	},
 }
 

@@ -43,6 +43,6 @@ export default function Icon({ icon }) {
     useEffect( () => setIconKey( iconKey ), [ iconKey ] )
 
     return (
-        <FontAwesomeIcon icon={[ iconType, stateIconKey ]} />
+        <FontAwesomeIcon icon={[ iconType, stateIconKey ]} className="" />
     )
 }

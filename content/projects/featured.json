@@ -1,7 +1,7 @@
 [
 	{
 		"project": "vault",
-		"url": "https://github.com/mazi76erX2/vault",
+		"url": "https://github.com/mazi76erX2/vault/tree/development",
 		"repo": "Public",
 		"descriptionTitle": "AI-Powered Knowledge Management with RAG",
 		"description": "A full-stack document Q&A system built with FastAPI and React, combining hybrid vector and keyword search, reranking, query enhancement, and LLM-powered answers for fast retrieval.",
@@ -12,14 +12,14 @@
 				"hover": "right",
 				"h": "1200",
 				"w": "556",
-				"url": "/img/peanut-payroll/04.png"
+				"url": "/img/vault/1.png"
 			},
 			{
 				"key": "mock-stack",
 				"hover": "right",
 				"h": "1200",
 				"w": "556",
-				"url": "/img/peanut-payroll/04.png"
+				"url": "/img/vault/4.png"
 			}
 		],
 		"stack": [
@@ -39,8 +39,33 @@
 				"type": "devicon"
 			},
 			{
-				"key": "javascript",
-				"name": "JavaScript",
+				"key": "pytorch",
+				"name": "PyTorch",
+				"type": "devicon"
+			},
+			{
+				"key": "scikit-learn",
+				"name": "Scikit-learn",
+				"type": "devicon"
+			},
+			{
+				"key": "numpy",
+				"name": "NumPy",
+				"type": "devicon"
+			},
+			{
+				"key": "redis",
+				"name": "Redis",
+				"type": "devicon"
+			},
+			{
+				"key": "sqlalchemy",
+				"name": "SQLAlchemy",
+				"type": "devicon"
+			},
+			{
+				"key": "typescript",
+				"name": "TypeScript",
 				"type": "devicon"
 			},
 			{
@@ -49,8 +74,23 @@
 				"type": "devicon"
 			},
 			{
-				"key": "nextjs",
-				"name": "NextJS",
+				"key": "tailwindcss",
+				"name": "Tailwind CSS",
+				"type": "devicon"
+			},
+			{
+				"key": "storybook",
+				"name": "Storybook",
+				"type": "devicon"
+			},
+			{
+				"key": "redux",
+				"name": "Redux",
+				"type": "devicon"
+			},
+			{
+				"key": "vite",
+				"name": "ViteJS",
 				"type": "devicon"
 			}
 		]
@@ -62,7 +102,22 @@
 		"descriptionTitle": "Secure PDF Statement Delivery API",
 		"description": "A FastAPI service for authenticated PDF delivery with encrypted storage, PostgreSQL, Redis caching, pluggable backends, and production observability built in.",
 		"imageOptions": [],
-		"images": [],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "left",
+				"h": "1200",
+				"w": "556",
+				"url": "/img/secure/1.png"
+			},
+			{
+				"key": "mock-stack",
+				"hover": "left",
+				"h": "1200",
+				"w": "556",
+				"url": "/img/secure/2.png"
+			}
+		],
 		"stack": [
 			{
 				"key": "python",
@@ -90,8 +145,8 @@
 				"type": "devicon"
 			},
 			{
-				"key": "amazonwebservices",
-				"name": "AWS",
+				"key": "azure",
+				"name": "Azure",
 				"type": "devicon"
 			}
 		]
@@ -103,7 +158,22 @@
 		"descriptionTitle": "FMCSA-Compliant ELD Trip Planner",
 		"description": "A trip-planning application for commercial drivers that calculates routes and generates compliant Electronic Logging Device log sheets with backend automation and real-time updates.",
 		"imageOptions": [],
-		"images": [],
+		"images": [
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "1200",
+				"w": "556",
+				"url": "/img/eld/1.png"
+			},
+			{
+				"key": "mock-stack",
+				"hover": "right",
+				"h": "1200",
+				"w": "556",
+				"url": "/img/els/2.png"
+			}
+		],
 		"stack": [
 			{
 				"key": "python",
