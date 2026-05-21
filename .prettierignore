@@ -1,0 +1,14 @@
+node_modules
+.next
+out
+public/favicon
+dist
+coverage
+*.min.js
+.vscode
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.svg
+*.mp4
