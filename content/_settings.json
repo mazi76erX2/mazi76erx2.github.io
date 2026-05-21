@@ -1,15 +1,15 @@
 {
-	"name": "Xolani Mazibuko",
-	"logo": "",
-	
-	"username": {
-		"github": "mazi76erX2",
-		"linkedin": "xolani-mazibuko"
-	},
+  "name": "Xolani Mazibuko",
+  "logo": "",
 
-	"portfolio": { 
-		"forkthis": "Hire me! I am opened flexible to work and a room to negotiate about salary 🥰",
-		"repo_html": "https://www.github.com/mazi76erX2/mazi76erx2.github.io",
-		"repo_api": "https://api.github.com/repos/mazi76erX2/mazi76erx2.github.io"
-	}
+  "username": {
+    "github": "mazi76erX2",
+    "linkedin": "xolani-mazibuko"
+  },
+
+  "portfolio": {
+    "forkthis": "Hire me! I am opened flexible to work and a room to negotiate about salary 🥰",
+    "repo_html": "https://www.github.com/mazi76erX2/mazi76erx2.github.io",
+    "repo_api": "https://api.github.com/repos/mazi76erX2/mazi76erx2.github.io"
+  }
 }

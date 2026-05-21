@@ -1,142 +1,142 @@
 {
-    "technical": {
-        "preTitle": "Hardskills",
-        "subTitle": "My primary stack is Python — FastAPI and Django on the backend, paired with PostgreSQL, Redis, and RabbitMQ for data and messaging layers. I've built and shipped production systems on both Azure and AWS, including Dockerised deployments with CI/CD pipelines, observability stacks, and async task processing with Celery. I'm equally comfortable on the frontend with React and Next.js when the work calls for it."
+  "technical": {
+    "preTitle": "Hardskills",
+    "subTitle": "My primary stack is Python — FastAPI and Django on the backend, paired with PostgreSQL, Redis, and RabbitMQ for data and messaging layers. I've built and shipped production systems on both Azure and AWS, including Dockerised deployments with CI/CD pipelines, observability stacks, and async task processing with Celery. I'm equally comfortable on the frontend with React and Next.js when the work calls for it."
+  },
+  "section1": {
+    "title": "Polymath Foundations",
+    "copy": "My background spans data analytics, backend engineering, cloud infrastructure, and AI integration — from building RAG pipelines with pgvector and Qdrant to prototyping AWS Bedrock embeddings for unstructured data classification. That breadth gives me a systems-level perspective that purely specialised engineers often miss."
+  },
+  "section2": {
+    "title": "Software I love to work with",
+    "copy": "I thrive on building systems that are reliable, observable, and easy to reason about. Whether I'm designing a microservices architecture, debugging a subtle async race condition, or reviewing a pull request, I care deeply about the craft. Good software is not just functional — it's maintainable, testable, and built with the next engineer in mind."
+  },
+  "section3": {
+    "title": "Technologies I love to build with",
+    "copy": "Python, FastAPI, Django, PostgreSQL, Redis, RabbitMQ, MongoDB, React, Next.js, AWS, Azure, Docker, GitHub Actions, Celery, SQLAlchemy, TypeScript"
+  },
+  "software": [
+    {
+      "key": "vscode",
+      "name": "VSCode",
+      "type": "devicon"
     },
-    "section1": {
-        "title": "Polymath Foundations",
-        "copy": "My background spans data analytics, backend engineering, cloud infrastructure, and AI integration — from building RAG pipelines with pgvector and Qdrant to prototyping AWS Bedrock embeddings for unstructured data classification. That breadth gives me a systems-level perspective that purely specialised engineers often miss."
+    {
+      "key": "mailbox",
+      "name": "Postman",
+      "type": "fas"
     },
-    "section2": {
-        "title": "Software I love to work with",
-        "copy": "I thrive on building systems that are reliable, observable, and easy to reason about. Whether I'm designing a microservices architecture, debugging a subtle async race condition, or reviewing a pull request, I care deeply about the craft. Good software is not just functional — it's maintainable, testable, and built with the next engineer in mind."
+    {
+      "key": "notion",
+      "name": "Notion",
+      "type": "fas"
     },
-    "section3": {
-        "title": "Technologies I love to build with",
-        "copy": "Python, FastAPI, Django, PostgreSQL, Redis, RabbitMQ, MongoDB, React, Next.js, AWS, Azure, Docker, GitHub Actions, Celery, SQLAlchemy, TypeScript"
+    {
+      "key": "chrome",
+      "name": "Chrome DevTools",
+      "type": "fas"
     },
-    "software": [
-        {
-            "key": "vscode",
-            "name": "VSCode",
-            "type": "devicon"
-        },
-        {
-            "key": "mailbox",
-            "name": "Postman",
-            "type": "fas"
-        },
-        {
-            "key": "notion",
-            "name": "Notion",
-            "type": "fas"
-        },
-        {
-            "key": "chrome",
-            "name": "Chrome DevTools",
-            "type": "fas"
-        },
-        {
-            "key": "dbeaver",
-            "name": "DBeaver",
-            "type": "devicon"
-        },
-        {
-            "key": "ubuntu",
-            "name": "Ubuntu",
-            "type": "devicon"
-        }
-    ],
-    "tech": [
-        {
-            "key": "python",
-            "name": "Python",
-            "type": "devicon"
-        },
-        {
-            "key": "django",
-            "name": "Django",
-            "type": "devicon"
-        },
-        {
-            "key": "fastapi",
-            "name": "FastAPI",
-            "type": "devicon"
-        },
-        {
-            "key": "flask",
-            "name": "Flask",
-            "type": "devicon"
-        },
-        {
-            "key": "postgresql",
-            "name": "PostgreSQL",
-            "type": "devicon"
-        },
-        {
-            "key": "redis",
-            "name": "Redis",
-            "type": "devicon"
-        },
-        {
-            "key": "docker",
-            "name": "Docker",
-            "type": "devicon"
-        },
-        {
-            "key": "azure",
-            "name": "Azure",
-            "type": "devicon"
-        },
-        {
-            "key": "amazonwebservices",
-            "name": "AWS",
-            "type": "devicon"
-        },
-        {
-            "key": "javascript",
-            "name": "JavaScript",
-            "type": "devicon"
-        },
-        {
-            "key": "typescript",
-            "name": "TypeScript",
-            "type": "devicon"
-        },
-        {
-            "key": "react",
-            "name": "React",
-            "type": "devicon"
-        },
-        {
-            "key": "nextjs",
-            "name": "NextJS",
-            "type": "devicon"
-        },
-        {
-            "key": "nodejs",
-            "name": "NodeJS",
-            "type": "devicon"
-        },
-        {
-            "key": "git",
-            "name": "Git",
-            "type": "devicon"
-        },
-        {
-            "key": "html5",
-            "name": "HTML5",
-            "type": "devicon"
-        },
-        {
-            "key": "css3",
-            "name": "CSS3",
-            "type": "devicon"
-        },
-        {
-            "key": "tailwindcss",
-            "name": "Tailwind CSS",
-            "type": "devicon"
-        }
-    ]
+    {
+      "key": "dbeaver",
+      "name": "DBeaver",
+      "type": "devicon"
+    },
+    {
+      "key": "ubuntu",
+      "name": "Ubuntu",
+      "type": "devicon"
+    }
+  ],
+  "tech": [
+    {
+      "key": "python",
+      "name": "Python",
+      "type": "devicon"
+    },
+    {
+      "key": "django",
+      "name": "Django",
+      "type": "devicon"
+    },
+    {
+      "key": "fastapi",
+      "name": "FastAPI",
+      "type": "devicon"
+    },
+    {
+      "key": "flask",
+      "name": "Flask",
+      "type": "devicon"
+    },
+    {
+      "key": "postgresql",
+      "name": "PostgreSQL",
+      "type": "devicon"
+    },
+    {
+      "key": "redis",
+      "name": "Redis",
+      "type": "devicon"
+    },
+    {
+      "key": "docker",
+      "name": "Docker",
+      "type": "devicon"
+    },
+    {
+      "key": "azure",
+      "name": "Azure",
+      "type": "devicon"
+    },
+    {
+      "key": "amazonwebservices",
+      "name": "AWS",
+      "type": "devicon"
+    },
+    {
+      "key": "javascript",
+      "name": "JavaScript",
+      "type": "devicon"
+    },
+    {
+      "key": "typescript",
+      "name": "TypeScript",
+      "type": "devicon"
+    },
+    {
+      "key": "react",
+      "name": "React",
+      "type": "devicon"
+    },
+    {
+      "key": "nextjs",
+      "name": "NextJS",
+      "type": "devicon"
+    },
+    {
+      "key": "nodejs",
+      "name": "NodeJS",
+      "type": "devicon"
+    },
+    {
+      "key": "git",
+      "name": "Git",
+      "type": "devicon"
+    },
+    {
+      "key": "html5",
+      "name": "HTML5",
+      "type": "devicon"
+    },
+    {
+      "key": "css3",
+      "name": "CSS3",
+      "type": "devicon"
+    },
+    {
+      "key": "tailwindcss",
+      "name": "Tailwind CSS",
+      "type": "devicon"
+    }
+  ]
 }

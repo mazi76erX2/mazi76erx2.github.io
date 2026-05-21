@@ -1,13 +1,12 @@
-import Color from '../../components/utils/page.colors.util'
+import Color from '../../components/utils/page.colors.util';
 
-import colors from '../../content/articles/_colors.json'
-import settings	from '../../content/_settings.json'
+import colors from '../../content/articles/_colors.json';
 
 //
 export default function Articles() {
-	return (
-		<>
-			<Color colors={colors} />
-		</>
-	)
+  return (
+    <>
+      <Color colors={colors} />
+    </>
+  );
 }
