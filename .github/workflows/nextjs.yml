@@ -88,7 +88,11 @@ jobs:
         run: ${{ steps.detect-package-manager.outputs.manager }} run lint
       - name: Type check
         run: ${{ steps.detect-package-manager.outputs.manager }} run typecheck
-      - name: Build with Next.js
+      - name: Build with Next.js (Bun)
+        if: steps.detect-package-manager.outputs.manager == 'bun'
+        run: bun run build
+      - name: Build with Next.js (npm/yarn)
+        if: steps.detect-package-manager.outputs.manager != 'bun'
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
