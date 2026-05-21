@@ -136,8 +136,8 @@ export default function SetTheme() {
               i && o
                 ? function (e) {
                     const n = new Date();
-                    (n - s.lastDebugMsg > 1e3 && console.log('---'),
-                      console.log(
+                    (n - s.lastDebugMsg > 1e3 && console.warn('---'),
+                      console.warn(
                         n.toLocaleTimeString() +
                           Array(Math.max(0, 32 - e.length)).join(' ') +
                           e +
@@ -572,7 +572,7 @@ export default function SetTheme() {
               playing: !0,
             }),
             document.querySelector('#gradient-canvas').length < 1
-              ? console.log('Did not load canvas')
+              ? console.warn('Did not load canvas')
               : ((this.minigl = new MiniGl(this.el, null, null, !0)),
                 requestAnimationFrame(() => {
                   this.el &&

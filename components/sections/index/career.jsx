@@ -473,7 +473,6 @@ const tentpole = [
     name: 'Gitlab',
     type: 'devicon',
   },
-  ,
   {
     key: 'amazonwebservices',
     name: 'AWS',

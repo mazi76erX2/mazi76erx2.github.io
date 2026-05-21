@@ -1,44 +1,44 @@
 {
-	"name": "mazi76erx2-portfolio",
-	"version": "1.0.0",
-	"private": true,
-	"scripts": {
-		"dev": "next dev",
-		"build": "next build",
-		"start": "next start",
-		"lint": "eslint --ext .js,.jsx .",
-		"typecheck": "tsc -p tsconfig.json --noEmit",
-		"format": "prettier --write \"**/*.{js,jsx,json,css,scss}\" --ignore-path .gitignore",
-		"format:check": "prettier --check \"**/*.{js,jsx,json,css,scss}\" --ignore-path .gitignore",
-		"test": "jest --watch"
-	},
-	"dependencies": {
-		"@fontsource/fira-code": "^5.2.7",
-		"@fontsource/inter": "^5.2.8",
-		"@uiw/react-markdown-preview": "^5.2.0",
-		"@vercel/analytics": "^2.0.1",
-		"babel-plugin-macros": "^3.1.0",
-		"framer-motion": "^12.39.0",
-		"next": "^16.2.6",
-		"react": "^19.2.6",
-		"react-dom": "^19.2.6",
-		"react-intersection-observer": "^10.0.3",
-		"react-markdown": "^10.1.0",
-		"react-type-animation": "^3.2.0",
-		"swr": "^2.4.1",
-		"the-new-css-reset": "^1.11.3",
-		"uuid": "^14.0.0"
-	},
-	"devDependencies": {
-		"@eslint/js": "^10.0.1",
-		"@testing-library/jest-dom": "^6.9.1",
-		"@testing-library/react": "^16.3.2",
-		"eslint": "^10.4.0",
-		"eslint-config-next": "^16.2.6",
-		"jest": "^30.4.2",
-		"jest-environment-jsdom": "^30.4.1",
-		"prettier": "^3.6.2",
-		"sass": "^1.99.0",
-		"typescript": "^5.9.3"
-	}
+  "name": "mazi76erx2-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint --ext .js,.jsx .",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "format": "prettier --write \"**/*.{js,jsx,json,css,scss}\" --ignore-path .gitignore",
+    "format:check": "prettier --check \"**/*.{js,jsx,json,css,scss}\" --ignore-path .gitignore",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "@fontsource/fira-code": "^5.2.7",
+    "@fontsource/inter": "^5.2.8",
+    "@uiw/react-markdown-preview": "^5.2.0",
+    "@vercel/analytics": "^2.0.1",
+    "babel-plugin-macros": "^3.1.0",
+    "framer-motion": "^12.39.0",
+    "next": "^16.2.6",
+    "react": "^19.2.6",
+    "react-dom": "^19.2.6",
+    "react-intersection-observer": "^10.0.3",
+    "react-markdown": "^10.1.0",
+    "react-type-animation": "^3.2.0",
+    "swr": "^2.4.1",
+    "the-new-css-reset": "^1.11.3",
+    "uuid": "^14.0.0"
+  },
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/jest-dom": "^6.9.1",
+    "@testing-library/react": "^16.3.2",
+    "eslint": "^10.4.0",
+    "eslint-config-next": "^16.2.6",
+    "jest": "^30.4.2",
+    "jest-environment-jsdom": "^30.4.1",
+    "prettier": "^3.6.2",
+    "sass": "^1.99.0",
+    "typescript": "^5.9.3"
+  }
 }

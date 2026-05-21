@@ -19,7 +19,7 @@ export default function Navbar() {
   useEffect(() => {
     class RouteEvents {
       constructor() {
-        console.log(
+        console.warn(
           '%c☰  Navigation Router Events Loaded',
           'background: #060708; color: #fff; padding: .125rem .75rem; border-radius: 5px; font-weight: 900; '
         );
@@ -49,7 +49,7 @@ export default function Navbar() {
   useEffect(() => {
     class ScrollEvents {
       constructor() {
-        console.log(
+        console.warn(
           '%c▼  Navigation Scroll Events Loaded',
           'background: #060708; color: #fff; padding: .125rem .75rem; border-radius: 5px; font-weight: 900; '
         );
