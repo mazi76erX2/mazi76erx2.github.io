@@ -2,40 +2,74 @@ import js from '@eslint/js';
 
 export default [
   {
-    ignores: ['.next/**', 'out/**', 'build/**', 'coverage/**', 'node_modules/**', 'public/**'],
+    ignores: [
+      '.next/**',
+      // Configuration for JSX files
+      {
+        files: ['**/*.{js,jsx}'],
+      'coverage/**',
+      'node_modules/**',
+      'public/**',
+      '.git/**',
+    ],
   },
   js.configs.recommended,
   {
     files: ['**/*.{js,jsx}'],
     languageOptions: {
-      ecmaVersion: 'latest',
-      sourceType: 'module',
+      ecmaVersion: 2020,
       parserOptions: {
+        sourceType: 'module',
         ecmaFeatures: {
           jsx: true,
         },
       },
       globals: {
+            clearTimeout: 'readonly',
+            setTimeout: 'readonly',
+            requestAnimationFrame: 'readonly',
+            cancelAnimationFrame: 'readonly',
+            getComputedStyle: 'readonly',
         window: 'readonly',
         document: 'readonly',
-        localStorage: 'readonly',
+        navigator: 'readonly',
         console: 'readonly',
+        React: 'readonly',
         fetch: 'readonly',
-        requestAnimationFrame: 'readonly',
-        getComputedStyle: 'readonly',
-        setTimeout: 'readonly',
-        clearTimeout: 'readonly',
-        module: 'readonly',
+        localStorage: 'readonly',
+      // Configuration for CommonJS config files
+      {
+        files: ['next.config.js', 'jest.config.js'],
+        languageOptions: {
+          sourceType: 'commonjs',
+          globals: {
+            module: 'writable',
+            console: 'readonly',
+          },
+        },
+      },
+      // Configuration for Jest test files
+      {
+        files: ['**/*.test.js', '**/*.test.jsx', 'tests/**/*'],
+        languageOptions: {
+          globals: {
+            describe: 'readonly',
+            it: 'readonly',
+            expect: 'readonly',
+            afterEach: 'readonly',
+            beforeEach: 'readonly',
+            afterAll: 'readonly',
+            beforeAll: 'readonly',
+          },
+        },
+      },
+        sessionStorage: 'readonly',
         require: 'readonly',
-        describe: 'readonly',
-        it: 'readonly',
-        expect: 'readonly',
       },
     },
     rules: {
-      'no-unused-vars': 'warn',
-      'no-empty-pattern': 'off',
-      'no-sparse-arrays': 'off',
+      'no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+      'no-console': ['warn', { allow: ['warn', 'error'] }],
     },
   },
 ];

@@ -32,9 +32,6 @@ const nextConfig = {
       },
     ],
   },
-  env: {
-    dir: '/',
-  },
 };
 
 module.exports = nextConfig;
